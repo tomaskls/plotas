@@ -1,0 +1,15 @@
+.container {
+    display: inline-grid;
+    gap: 0.3rem;
+  }
+.cell{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+
+

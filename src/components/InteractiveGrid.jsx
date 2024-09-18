@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react';
 import { CounterButton } from './CounterButton';
 import { Grid } from './Grid';
 import { Statistics } from './Statistics';
+import style from './InteractiveGrid.module.css'
 
 
 
@@ -44,7 +45,7 @@ export const InteractiveGrid = () => {
       </div>
 
 
-      <div style={{ marginTop: '20px' }}>
+      <div className={style.celes}>
         <Grid
           width={width}
           height={height}
