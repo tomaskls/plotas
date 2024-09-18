@@ -1,18 +1,31 @@
 .stats{
     background-color: aqua;
-    height: 100px;
+    height: 14vh;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainContainer{
+    width: 80%;
+    margin-left: 10%;
 }
 .plotis{
     background-color: bisque;
-    height: 120px;
-    margin-left: 100px;
+    height: 16vh;
+    margin-left: 120px;
     
 
 }
 .aukstis{
     background-color: rgba(204, 8, 8, 0.114);
     width: 120px;
-    height: 100vh;
+    height: 70vh;
 
 }
 .container{

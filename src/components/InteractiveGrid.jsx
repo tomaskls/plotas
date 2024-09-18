@@ -35,7 +35,7 @@ export const InteractiveGrid = () => {
         <Statistics total={totalCells} selected={selectedCells.size} />
 
       </div>
-
+<div className={style.mainContainer}>
       <div className={style.plotis}>
         <Buttonwidth value={width} onChange={setWidth} label="Plotis" />
       </div>
@@ -56,6 +56,7 @@ export const InteractiveGrid = () => {
             onCellClick={handleCellClick}
           />
         </div>
+      </div>
       </div>
     </div>
 
