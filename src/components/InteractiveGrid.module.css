@@ -1,5 +1,24 @@
+.stats{
+    background-color: aqua;
+    height: 100px;
+}
+.plotis{
+    background-color: bisque;
+    height: 120px;
+    margin-left: 100px;
+    
 
+}
+.aukstis{
+    background-color: rgba(204, 8, 8, 0.114);
+    width: 120px;
+    height: 100vh;
 
+}
+.container{
+    display: flex;
+}
 .celes{
-    margin-top: 100px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
 }

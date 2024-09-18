@@ -3,9 +3,7 @@ import PropTypes from 'prop-types';
 export const Statistics = ({ total, selected }) => {
     return (
       <div>
-        <p>Viso langelių: {total}</p>
-        <p>Laisvų langelių: {total - selected}</p>
-        <p>Pažymėtų langelių: {selected}</p>
+        <p>Plotas: {total} m2 iš kurių { selected} m2 užimta </p>
       </div>
     );
   };
