@@ -37,6 +37,7 @@ export const InteractiveGrid = () => {
       </div>
 <div className={style.mainContainer}>
       <div className={style.plotis}>
+        <img src="/m2.png" alt="m2" />
         <Buttonwidth value={width} onChange={setWidth} label="Plotis" />
       </div>
 
