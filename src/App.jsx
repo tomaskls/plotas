@@ -1,7 +1,7 @@
 import './App.css'
 import { InteractiveGrid } from './components/InteractiveGrid'
 
-function App() {
+export function App() {
 
   return (
     <>

@@ -27,43 +27,43 @@ export const InteractiveGrid = () => {
   }, []);
 
   const totalCells = width * height;
-  const totalleft = width ;
+  const totalleft = width;
   const totaldown = height;
 
   return (
     <div>
       <div className={style.stats}>
 
-        <Statistics  totalwidth={totalleft} totalheight={totaldown} total={totalCells}  selected={selectedCells.size} />
+        <Statistics totalwidth={totalleft} totalheight={totaldown} total={totalCells} selected={selectedCells.size} />
 
       </div>
-<div className={style.mainContainer}>
-      <div className={style.plotis}>
-        <img src="/m2.png" alt="m2" />
-        <Buttonwidth value={width} onChange={setWidth} label="Plotis" />
-      </div>
-
-      <div className={style.container}>
-
-        <div className={style.aukstis}>
-          <Buttonheight value={height} onChange={setHeight} label="Aukštis" />
-
+      <div className={style.mainContainer}>
+        <div className={style.cellswidth}>
+          <img src="/m2.png" alt="m2" />
+          <Buttonwidth value={width} onChange={setWidth} label="Plotis" />
         </div>
 
+        <div className={style.container}>
 
-        <div className={style.celes}>
-          <Grid
-            width={width}
-            height={height}
-            selectedCells={selectedCells}
-            onCellClick={handleCellClick}
-          />
+          <div className={style.cellsheight}>
+            <Buttonheight value={height} onChange={setHeight} label="Aukštis" />
+
+          </div>
+
+
+          <div className={style.cells}>
+            <Grid
+              width={width}
+              height={height}
+              selectedCells={selectedCells}
+              onCellClick={handleCellClick}
+            />
+          </div>
         </div>
-      </div>
       </div>
     </div>
 
-  
+
   );
 };
 
