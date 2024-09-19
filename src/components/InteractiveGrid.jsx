@@ -27,12 +27,14 @@ export const InteractiveGrid = () => {
   }, []);
 
   const totalCells = width * height;
+  const totalleft = width ;
+  const totaldown = height;
 
   return (
     <div>
       <div className={style.stats}>
 
-        <Statistics total={totalCells} selected={selectedCells.size} />
+        <Statistics  totalwidth={totalleft} totalheight={totaldown} total={totalCells}  selected={selectedCells.size} />
 
       </div>
 <div className={style.mainContainer}>

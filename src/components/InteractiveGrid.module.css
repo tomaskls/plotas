@@ -24,6 +24,8 @@
     display: flex;
     background-color: rgb(236, 133, 8);
     height: 16vh;
+    box-shadow: 0 0.2rem 0.2rem #0003;
+
     
 
 }
@@ -31,6 +33,8 @@
     background-color: rgba(141, 6, 182, 0.771);
     width: 140px;
     height: 70vh;
+    box-shadow: 0.2rem 0 0.2rem #0003;
+
 
 }
 .container{
